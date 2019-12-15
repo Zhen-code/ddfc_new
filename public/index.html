@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta name="theme-color" content="#000000"/>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+    <title></title>
+    <style>
+        *{
+            margin:0;padding: 0;
+        }
+    </style>
+</head>
+<script type="text/javascript">
+    // setTimeout(()=>{
+    //     !(function(doc, win) {
+    //         let docEle = doc.documentElement,
+    //             evt = "onorientationchange" in window ? "orientationchange" : "resize",
+    //             fn = function() {
+    //                 let width = docEle.clientWidth;
+    //                 width = width < 375 ? 375 : width;
+    //                 width = width > 750 ? 750 : width;
+    //                 width && (docEle.style.fontSize = 100 * (width / 750) + "px");
+    //             };
+    //         win.addEventListener(evt, fn, false);
+    //         doc.addEventListener("DOMContentLoaded", fn, false);
+    //     }(document, window));
+    // },600)
+    function show(){
+        document.getElementById("temp").innerHTML = "Hello world";
+    }
+</script>
+<body>
+<div id="root"></div>
+</body>
+
+</html>
